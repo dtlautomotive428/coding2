@@ -16,10 +16,26 @@ String firstName = "Delio" ;
 System.out.println("Delio");
 String lastName = "Lopez" ;
 System.out.println("Lopez");
-char middleIntitial = 'T' ;
+char middleInitial = 'T' ;
 System.out.println('T');
-
-
+System.out.println('T');
+ 
+double moh = 500.00 ;
+System.out.println(moh);
+// cost of tool=cot//
+double cot = 499.00 ;
+System.out.println(cot);
+//money left over =mlo
+double mlo = moh - cot ;
+System.out.println(mlo);
+//how old am i = my age//
+int myAge = 49;
+System.out.println(myAge);
+// number of friends per year = nofeyr
+int nofeyr = 49-46;
+System.out.println(nofeyr);
+String fullName = firstName + " " + middleInitial +" " + lastName;
+System.out.println(fullName);
 	}
 
 }
